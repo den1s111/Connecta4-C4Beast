@@ -8,7 +8,7 @@ import java.util.HashMap;
  * i una taula d'estats per evitar repetir càlculs. 
  * 
  * A més, inclou una heurística personalitzada per avaluar l'estat del tauler 
- * basant-se en línies, diagonals i posicions estratègiques cercant en la
+ * basant-se en línies, diagonals i posicions estratègiques cercant en la 
  * profunditat seleccionada per l'usuari.
  * 
  * @author Denis Vera Iriyari
@@ -230,6 +230,6 @@ public class C4Beast implements Jugador, IAuto {
      * @return Array d'índexs de columnes ordenades per prioritat 
      */
     private int[] ordreNodes() {
-        return new int[]{3, 4, 2, 5, 1, 6, 0};
+        return new int[]{4, 3, 5, 2, 6, 1, 7, 0}; // Adaptat per a tauler de 8x8
     }
 }
